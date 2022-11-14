@@ -1,0 +1,41 @@
+{
+  "name": "reservas-canchas",
+  "version": "1.0.0",
+  "description": "Sitio Web de reservas de recintos deportivos para la Universidad de Tarapacá",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njorquera98/Reservas-Canchas.git"
+  },
+  "keywords": [],
+  "author": "njorquera98",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njorquera98/Reservas-Canchas/issues"
+  },
+  "homepage": "https://github.com/njorquera98/Reservas-Canchas#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "express-handlebars": "^6.0.6",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.23.2",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
